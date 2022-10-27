@@ -97,6 +97,11 @@ h2 {
   color: white;
 }
 
+.quienesomos {
+  color: black;
+  text-align: center;
+}
+
 /*---------Estilos servicios.html--------*/
 #opcionesdedescarga {
   text-align: center;

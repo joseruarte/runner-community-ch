@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Runner Community</title>
-  
+    <link rel="stylesheet" href="contacto.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,12 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="Imagenes/logo2.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -22,41 +27,71 @@
       </a>
     </header>
 
-<div class="container">
-<form class="row">
+    <div class="container">
+      <form class="row g-3 mt-3">
+        <div class="col-6">
+          <label for="emailinput" class="form-label">Nombre</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailinput"
+            placeholder="escribe tu nombre"
+          />
+        </div>
 
-    <div class="col-6">
-        <label for="emailinput" class="form-labek">Email</label>
-        <input type="email" class="form-control" id="emailinput" placeholder="escribe tu email">
+        <div class="col-6">
+          <label for="inputpass" class="form-label">Apellido</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputpass"
+            placeholder="escribe tu apellido"
+          />
+        </div>
+
+        <div class="col-12">
+          <label for="emailinput" class="form-label">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputemail"
+            placeholder="email"
+          />
+        </div>
+
+        <div class="col-12">
+          <div class="form check">
+            <label for="checktTerms" class="form-check-label"
+              >Acepto Terminos y Condiciones</label
+            >
+
+            <input type="checkbox" id="checktTerms" class="form-check-input" />
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
     </div>
 
-     
-<div class="col-6">
-    <label for="inputpass" class="form-label">Contraseña</label>
-     <input type="password" class="form-control" id="inputpass" placeholder="escribe tu contraseña">
-</div>
-
-</div>
-
-</div>
-
-<footer>
-    <div class="redes">
-      <h3>Buscanos en las redes</h3>
-      <img
-        src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-128.png"
-        class="Insta"
-      />
-      <img
-        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png"
-        class="Facebook"
-      />
-      <img
-        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-128.png"
-        class="Twitter"
-      />
-    </div>
-    <p>© Copyright 2021 Runner Community | Creada por <a href="#">JMR</a></p>
-  </footer>
+    <footer>
+      <div class="redes">
+        <h3>Buscanos en las redes</h3>
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-128.png"
+          class="Insta"
+        />
+        <img
+          src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png"
+          class="Facebook"
+        />
+        <img
+          src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-128.png"
+          class="Twitter"
+        />
+      </div>
+      <p>© Copyright 2021 Runner Community | Creada por <a href="#">JMR</a></p>
+    </footer>
   </body>
 </html>
