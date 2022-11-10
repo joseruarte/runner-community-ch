@@ -76,6 +76,7 @@ footer {
   background-color: rgb(75, 75, 75);
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .redes {
@@ -119,4 +120,33 @@ h2 {
   width: 42%;
   height: 600px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.card img {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card h3,
+.card button {
+  display: block;
+  position: absolute;
+}
+.card h3 {
+  bottom: 60px;
+  left: 50%;
+  right: 50%;
+  transform: translate(0, -50%);
+}
+
+.conoceimg,
+.planimg,
+.monitoreoimg {
+  border: solid violet;
+  size: cover;
+  padding: 10px;
 }
